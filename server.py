@@ -66,7 +66,6 @@ def handle_connection(server):
     run_commands(server, victim)
 
 
-
 def start_server(host: str, port: int):
     try:
         server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
